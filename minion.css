@@ -85,103 +85,99 @@ body {
     color: white !important;
 }
 
-/* serch bar nya */
-
-.search {
-    --padding: 14px;
-
-    width: max-content;
-    display: flex;
-    align-items: center;
-    padding: var(--padding);
-    border-radius: 28px;
-    background: #f6f6f6;
-    width: auto;
-    margin-top: -180%;
-}
-
-.search-input {
-    font-size: 16px;
-    font-family: 'lexend' , sans-serif;
-    color: #333333;
-    margin-left: var(--padding);
-    outline: none ;
-    border: none;
-    background: transparent;
-    width: auto;
-    flex: 1;
-}
-
-.fire {
-    width: 50px;
-    margin-top: 15%;
-    margin-left: 5%;
-}
 
 .title {
-    justify-content: center;
-    color: #f6f6f6;
-    margin-top: -10%;
-    display: flex;
+    color: white;
+    margin-top: -190%;
+    padding: 15px;
+    font-size: xxx-large;
     font-weight: bold;
+    width: 40px;
 }
 
-.continer {
-    color: #f6f6f6;
+.card1 {
+    color: white;
+    padding: 15px;
 }
 
-.image1 {
-    width: 30%;
-    height: 20vh;
-    margin-top: 10%;
-    padding: 10px;
+.btn {
+    font-weight: bold;
+    background-color: #f60404;
 }
 
-.image2 {
-    width: 31%;
-    height: 21vh;
-    margin-top: -10%;
-}
-
-.image3 {
-    width: 27%;
-    height: 20vh;
-    padding: 10px;
-}
-
-.continer {
-    width: auto;
-    border-radius: 5px;
-}
-
-.card {
-    justify-content: space-between;
-    border-radius: 5px;
-    align-items: center;
-    font-size: 10px;
-    height: 7vh;
-}
-
-.judul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.judul>li {
+.btn>li {
     list-style: none;
     padding: 15px;
 }
 
-.judul>li>a {
-    color: white;
-    font-size: 15px;
-    font-weight: 900;
+.btn>li>a {
     text-decoration: none;
+    font-size: 1.4em;
+    color: white;
 }
 
-.judul >li>a:hover{
-    color: #ff0000df;
-    font-size: 20px;
-    transition: all .2s ease-in-out
+.btn:hover {
+    margin-left: 3px;
+    margin-right: 80px;
+    transition: all .3s ease-out;
+    border-radius: 20px;
+}
+
+
+.image {
+    width: 100%;
+    padding-top: 15px;
+    filter: blur(4px);
+}
+
+.mulai {
+    display: flex;
+    padding-left: 10px;
+    margin-top:15px;
+}
+
+.mulai>li {
+    list-style: none;
+    padding: 15px;
+}
+
+.mulai>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+    font-weight: 800;
+    padding: 5px;
+}
+
+.mulai>li>a:hover {
+    background-color: crimson;
+    border-radius: 15px;
+    padding: 15px;
+    width: 65%;
+    font-size: 2.5em;
+    transition: all .5s ease-in-out
+}
+
+.rating {
+    margin-top: 50px;
+    padding: 15px;
+    padding-bottom: 30%;
+    color: white;
+}
+
+.image1 {
+    width: 40%;
+}
+
+.judul2 {
+    padding-left: 45%;
+    margin-top: -60%;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+.image3 {
+    width: 60%;
+    margin-top: 170px;
 }
